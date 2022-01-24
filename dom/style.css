@@ -1,0 +1,27 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    margin: 35px 0;
+}    
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 900px;
+    border: 1px solid red;
+}
+
+.circle {
+    display: flex;
+}
+
+.circle__item{
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 50%;
+}
