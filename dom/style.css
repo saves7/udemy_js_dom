@@ -16,12 +16,35 @@ h3 {
 }
 
 .circle {
-    display: flex;
+  /* display: flex;*/
+    padding: 10px;
 }
 
 .circle__item{
-    width: 60px;
-    height: 60px;
+    display: inline;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
     background: red;
     border-radius: 50%;
+}
+
+.rect {
+    /* display: flex; */
+    padding: 10px;
+}
+
+.rect__item {
+    display: inline;
+    width: 80px;
+    height: 12px;
+    background: yellow;
+    margin: 0 10px;
+}
+
+.black {
+    background: black;
+    color:blanchedalmond;
+    width: 300px;
+    height: 100px;
 }
