@@ -21,7 +21,7 @@ h3 {
 }
 
 .circle__item{
-    display: inline;
+    display: inline-block;
     width: 90px;
     height: 90px;
     margin: 10px;
@@ -35,7 +35,7 @@ h3 {
 }
 
 .rect__item {
-    display: inline;
+    display: inline-block;
     width: 80px;
     height: 12px;
     background: yellow;
