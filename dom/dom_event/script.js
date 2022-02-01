@@ -30,7 +30,7 @@ btns[2].addEventListener('click', (e)=>{
     console.log('Аргумент функции - свойство события');
 }); 
 //если вывести свойства объекта e, то можно увидеть главные из них: type - что произошло и target - на каком элементе произошло
-//можно сразу вывести эти свойсва например target
+//можно сразу вывести эти свойства например target
 
 btns[2].addEventListener('click', (e)=>{
     console.log(e.target );
@@ -56,7 +56,7 @@ const clickElement = (e)=>{
 btns[3].addEventListener('click', clickElement );
 
 
-//Всплытие события, если родителю и вложенному элемнту назначены событие,
+//Всплытие события, если родителю и вложенному элементу назначены событие,
 //то сначала отображается воздействие на внутренний элемент (можно посмотреть через e.currentTargrt), а затем на родителя.
 
 btns[4].addEventListener('click',(e)=>{
@@ -78,7 +78,7 @@ link.addEventListener('click', (e)=>{
     console.log(e.target);
 });
 
-//addEventListener может третим аргументом принимать опции, например {once:true} - один раз
+//addEventListener может третьим аргументом принимать опции, например {once:true} - один раз
 btns[1].addEventListener('click', (e)=>{
     e.preventDefault();
     console.log(e.target);
